@@ -1,0 +1,30 @@
+.students-manager {
+    display: flex;
+    gap: 20px;
+    &__block {
+        align-items: start;
+        gap: 20px;
+        display: flex;
+    }
+}
+
+.students-list {
+    max-width: 350px;
+    // .students-list__title
+    &__title {
+        font-size: 25px;
+    }
+    // .students-list__name-and-sore
+    &__name-and-sore {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+    // .students-list__student
+    &__student {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}

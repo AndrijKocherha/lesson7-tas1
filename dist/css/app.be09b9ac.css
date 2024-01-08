@@ -1,0 +1,1 @@
+.students-manager{display:flex;gap:20px}.students-manager__block{align-items:start;gap:20px;display:flex}.students-list{max-width:350px}.students-list__title{font-size:25px}.students-list__name-and-sore{margin-bottom:30px}.students-list__name-and-sore,.students-list__student{display:grid;grid-template-columns:1fr 1fr;gap:50px}
